@@ -1,0 +1,55 @@
+#app{
+  margin-right:0px
+}
+
+.container-fluid{
+  padding-top:30px ;
+  max-width:5000px ;
+
+}
+
+
+
+.content_main {
+  
+
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 700px;
+
+  
+
+}
+
+
+
+
+.img-fluid{
+  margin:10px ;
+}
+
+.btn{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  border: none;
+
+}
+
+
+.btn:hover{
+  transform: translate(-5px,-5px);
+  background-color: aliceblue;
+}
+
+
+.btn:hover::after{
+  transform: translate(4px,4px);
+}
+
+.btn:before{
+  transform: translate(7px,7px);
+}
