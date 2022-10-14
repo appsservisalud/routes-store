@@ -19,6 +19,7 @@
                     <div class="row">
                   <div class="col-lg-12">
                     <Footer/>
+                    <h3>hola</h3>
                   </div>
                 </div>
 
